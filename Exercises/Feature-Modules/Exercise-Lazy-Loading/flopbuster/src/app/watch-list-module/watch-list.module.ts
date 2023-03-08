@@ -7,17 +7,17 @@ import { RouterModule } from '@angular/router';
 import { WatchListComponent } from './watch-list.component';
 
 let routes = [
-  { path: 'watchlist', component: WatchListComponent },
+  { path: '', component: WatchListComponent },
 ]
 
 @NgModule({
-  imports:      [ 
+  imports:      [
     CommonModule,
     RouterModule.forChild(routes),
      ],
-  declarations: [ 
-    WatchListComponent, 
-    
+  declarations: [
+    WatchListComponent,
+
   ],
 })
 export class WatchListModule { }
